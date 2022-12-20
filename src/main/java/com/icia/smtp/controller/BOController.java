@@ -17,7 +17,10 @@ import com.icia.smtp.service.BOService;
 
 @Controller
 public class BOController {
-
+	
+	// 수정 예시
+	// https://github.com/kwonjin862/smtp
+	
 	private ModelAndView mav = new ModelAndView();
 
 	@Autowired
@@ -54,5 +57,5 @@ public class BOController {
 
 		return mav;
 	}
-
+	
 }
